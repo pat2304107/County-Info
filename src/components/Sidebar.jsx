@@ -8,6 +8,9 @@ function Sidebar() {
         <div className="text-sm text-secondary">青年夢想方舟</div>
       </div>
       <nav className="flex-1 space-y-4">
+        <a href="/map" className="flex items-center text-white hover:text-secondary transition">
+          <span className="material-icons mr-2">map</span>參訪地圖
+        </a>
         <a href="/school" className="flex items-center text-white hover:text-secondary transition">
           <span className="material-icons mr-2">search</span>學校查詢
         </a>
