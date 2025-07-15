@@ -21,7 +21,7 @@ export default function TechnicalEducationContent() {
           <div className="bg-secondary/20 p-4 ">
             <h3 className="flex items-center gap-2">職群列表</h3>
           </div>
-          <div className="p-4 flex gap-2">
+          <div className="p-4 flex gap-2 flex-wrap">
             {jobGroup.map((job, i) => (
               <Link
                 key={i}

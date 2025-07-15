@@ -38,7 +38,8 @@ function AnnouncementTable() {
   return (
     <div className="bg-white/90 rounded-xl shadow p-6 border border-secondary">
       <h2 className="text-2xl font-bold text-primary mb-4">最新公告</h2>
-      <div className="overflow-x-auto">
+      {/* 桌機版 Table */}
+      <div className="overflow-x-auto hidden md:block">
         <table className="min-w-full text-sm text-left border-collapse">
           <thead>
             <tr className="bg-secondary/10 text-primary">
@@ -62,6 +63,34 @@ function AnnouncementTable() {
             ))}
           </tbody>
         </table>
+      </div>
+      {/* 手機版 Card */}
+      <div className="space-y-4 md:hidden">
+        {data.map((row, i) => (
+          <div
+            key={row.title}
+            className="bg-white rounded-lg shadow border border-secondary/30 p-4"
+          >
+            <div className="flex justify-between mb-2">
+              <span className="font-semibold text-gray-500">公告日期</span>
+              <span>{row.date}</span>
+            </div>
+            <div className="mb-2">
+              <span className="font-semibold text-gray-500">標題：</span>
+              <span className="text-primary underline cursor-pointer">{row.title}</span>
+            </div>
+            <div className="flex justify-between text-sm text-gray-600">
+              <span>
+                <span className="font-semibold">發佈人：</span>
+                {row.author}
+              </span>
+              <span>
+                <span className="font-semibold">點閱：</span>
+                {row.views}
+              </span>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

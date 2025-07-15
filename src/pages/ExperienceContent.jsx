@@ -21,17 +21,17 @@ export default function ExploreContent() {
             <img
               src="/County-Info/images/experience-sample-1.png"
               alt="活動照片"
-              className="w-1/2"
+              className="md:w-1/2 w-full"
             />
             <img
               src="/County-Info/images/experience-sample-1.png"
               alt="活動照片"
-              className="w-1/2"
+              className="md:w-1/2 w-full"
             />
             <img
               src="/County-Info/images/experience-sample-1.png"
               alt="活動照片"
-              className="w-1/2"
+              className="md:w-1/2 w-full"
             />
           </div>
         </div>

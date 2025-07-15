@@ -28,7 +28,7 @@ export default function TechnicalEducationDetail() {
               5.彰化縣立鹿港國中學生黃亭銨，參與106學年度國中技藝教育競賽機械職群（鑄造組）第一名。
             </p>
             <p className="text-red-700 font-bold">活動照片</p>
-            <div className="grid grid-cols-2 gap-2 w-2/3">
+            <div className="grid grid-cols-2 gap-2 md:w-2/3 w-full">
               <img src="/County-Info/images/edu-sample-1.png" alt="活動照片" className="w-full" />
               <img src="/County-Info/images/edu-sample-1.png" alt="活動照片" className="w-full" />
               <img src="/County-Info/images/edu-sample-1.png" alt="活動照片" className="w-full" />
