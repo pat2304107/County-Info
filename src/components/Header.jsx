@@ -5,9 +5,12 @@ function Header() {
         <a href="/" className="text-2xl font-bold text-primary-dark mb-2">
           南投縣青年方舟
         </a>
-        <button className="px-6 py-2 rounded-lg bg-primary text-white font-semibold hover:bg-primary-dark transition">
+        <a
+          href="/login"
+          className="px-6 py-2 rounded-lg bg-primary text-white font-semibold hover:bg-primary-dark transition"
+        >
           登入
-        </button>
+        </a>
       </div>
     </header>
   );

@@ -1,12 +1,14 @@
-function Tabs() {
+function Tabs({ title, desc }) {
   return (
-    <div className="flex space-x-4 px-8 py-4 bg-secondary/10 border-b border-secondary">
-      <button className="px-4 py-2 rounded-full bg-secondary text-primary font-semibold shadow-sm">
-        高中職學校
-      </button>
-      <button className="px-4 py-2 rounded-full text-primary hover:bg-secondary/20 transition">
-        行程列表
-      </button>
+    <div className="flex space-x-4 px-8 py-4 ">
+      <div>
+        <p className="text-primary font-bold text-3xl">{title}</p>
+        <p className="text-secondary font-bold text-xl">{desc}</p>
+      </div>
+      <div className="border border-secondary rounded-full px-4 flex items-center ">
+        <input type="text" className="border-none outline-none" placeholder="搜尋" />
+        <button className="bg-secondary text-white px-4 py-1 rounded-full">查詢</button>
+      </div>
     </div>
   );
 }

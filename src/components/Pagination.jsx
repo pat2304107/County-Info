@@ -4,7 +4,7 @@ function Pagination() {
       {[1, 2, 3, 4, 5].map((n) => (
         <button
           key={n}
-          className="w-8 h-8 rounded bg-secondary text-primary font-semibold hover:bg-primary/20 transition"
+          className="w-8 h-8 rounded bg-secondary text-white font-semibold hover:bg-primary/20 transition"
         >
           {n}
         </button>
