@@ -18,9 +18,21 @@ export default function ExploreContent() {
             <br />
             O桓：這是我第一次操作裁縫機，讓我印象非常深刻。雖然曾經在家中看奶奶用過裁縫機，不過今天我使用的機器，和奶奶用的不太一樣，操作方式更是不同，令我興奮不已。
             <p className="text-red-700 font-bold">活動照片</p>
-            <img src="/images/experience-sample-1.png" alt="活動照片" className="w-1/2" />
-            <img src="/images/experience-sample-1.png" alt="活動照片" className="w-1/2" />
-            <img src="/images/experience-sample-1.png" alt="活動照片" className="w-1/2" />
+            <img
+              src="/County-Info/images/experience-sample-1.png"
+              alt="活動照片"
+              className="w-1/2"
+            />
+            <img
+              src="/County-Info/images/experience-sample-1.png"
+              alt="活動照片"
+              className="w-1/2"
+            />
+            <img
+              src="/County-Info/images/experience-sample-1.png"
+              alt="活動照片"
+              className="w-1/2"
+            />
           </div>
         </div>
       </div>

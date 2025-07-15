@@ -8,7 +8,7 @@ const schools = [
     tag: '連德高工',
     title: '照顧服務科',
     desc: '有鑑於政府大力推行長照2.0政策，各相關機構專業照護人力需求與日俱增，亟需培養第一線照顧服務人才，認為...',
-    img: '/images/image.png',
+    img: '/County-Info/images/image.png',
   },
   {
     id: 2,

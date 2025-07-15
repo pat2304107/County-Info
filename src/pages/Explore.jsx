@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Explore() {
   const data = [
     {
@@ -90,13 +92,13 @@ export default function Explore() {
                 <td className="py-2 px-4 whitespace-nowrap">{row.date}</td>
                 <td className="py-2 px-4 ">{row.location}</td>
                 <td className="py-2 px-4 ">
-                  <a
-                    href={`/explore/${row.id}`}
+                  <Link
+                    to={`/explore/${row.id}`}
                     className="bg-secondary text-white px-4 py-1 rounded-full w-fit flex items-center gap-2 hover:bg-secondary/80 transition"
                   >
                     {row.name}
                     <span className="material-icons">launch</span>
-                  </a>
+                  </Link>
                 </td>
               </tr>
             ))}

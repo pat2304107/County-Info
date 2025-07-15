@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 export default function ExploreContent() {
   const { id } = useParams();
@@ -6,9 +6,9 @@ export default function ExploreContent() {
     <div className="flex flex-col gap-4">
       <h1 className="text-[40px] font-bold">流行飾品設計師-多媒材飾品</h1>
       <p>
-        <a href="/explore" className="text-secondary underline">
+        <Link to="/explore" className="text-secondary underline">
           職探課程列表
-        </a>
+        </Link>
         <span> / </span> 課程內容
       </p>
       <div className="flex flex-col gap-4">

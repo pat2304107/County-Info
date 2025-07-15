@@ -6,7 +6,7 @@ function SchoolCardList() {
       tag: '連德高工',
       title: '照顧服務科',
       desc: '培養照顧服務專業人才，強調實務與關懷。',
-      img: '/images/image.png',
+      img: '/County-Info/images/image.png',
     },
     {
       id: 2,

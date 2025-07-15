@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Experience() {
   const data = [
     {
@@ -34,13 +36,13 @@ export default function Experience() {
                 <td className="py-2 px-4 whitespace-nowrap">{row.name}</td>
                 <td className="py-2 px-4 whitespace-nowrap">{row.school}</td>
                 <td className="py-2 px-4 ">
-                  <a
-                    href={`/experience/${row.id}`}
+                  <Link
+                    to={`/experience/${row.id}`}
                     className="bg-secondary text-white px-4 py-1 rounded-full w-fit flex items-center gap-2 hover:bg-secondary/80 transition"
                   >
                     <span className="material-icons">visibility</span>
                     看內容
-                  </a>
+                  </Link>
                 </td>
               </tr>
             ))}

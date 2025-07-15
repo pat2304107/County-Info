@@ -29,10 +29,10 @@ export default function TechnicalEducationDetail() {
             </p>
             <p className="text-red-700 font-bold">活動照片</p>
             <div className="grid grid-cols-2 gap-2 w-2/3">
-              <img src="/images/edu-sample-1.png" alt="活動照片" className="w-full" />
-              <img src="/images/edu-sample-1.png" alt="活動照片" className="w-full" />
-              <img src="/images/edu-sample-1.png" alt="活動照片" className="w-full" />
-              <img src="/images/edu-sample-1.png" alt="活動照片" className="w-full" />
+              <img src="/County-Info/images/edu-sample-1.png" alt="活動照片" className="w-full" />
+              <img src="/County-Info/images/edu-sample-1.png" alt="活動照片" className="w-full" />
+              <img src="/County-Info/images/edu-sample-1.png" alt="活動照片" className="w-full" />
+              <img src="/County-Info/images/edu-sample-1.png" alt="活動照片" className="w-full" />
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const experts = [
     tag: '土黏香布袋戲DIY(或其他童玩DIY)',
     title: '藝術與設計類-藝術群',
     desc: '工坊開放參觀時間：周一至周日9:30~18:30 土黏香布袋戲DIY(或其他童玩DIY)：請來電預約 1.本工坊設有常...',
-    img: '/images/image.png',
+    img: '/County-Info/images/image.png',
   },
 ];
 

@@ -8,28 +8,28 @@ const companies = [
     tag: '順達窯業股份有限公司',
     title: '認識紅磚之窯場探索',
     desc: '【行程規劃】約2.5小時（行程可依團體需求規劃•停留時間會因DIY項目而不同） 1.認識紅磚: 紅磚文化/簡...',
-    img: '/images/image.png',
+    img: '/County-Info/images/image.png',
   },
   {
     id: 2,
     tag: '順達窯業股份有限公司',
     title: '認識紅磚之窯場探索',
     desc: '【行程規劃】約2.5小時（行程可依團體需求規劃•停留時間會因DIY項目而不同） 1.認識紅磚: 紅磚文化/簡...',
-    img: '/images/image.png',
+    img: '/County-Info/images/image.png',
   },
   {
     id: 3,
     tag: '順達窯業股份有限公司',
     title: '認識紅磚之窯場探索',
     desc: '【行程規劃】約2.5小時（行程可依團體需求規劃•停留時間會因DIY項目而不同） 1.認識紅磚: 紅磚文化/簡...',
-    img: '/images/image.png',
+    img: '/County-Info/images/image.png',
   },
   {
     id: 4,
     tag: '順達窯業股份有限公司',
     title: '認識紅磚之窯場探索',
     desc: '【行程規劃】約2.5小時（行程可依團體需求規劃•停留時間會因DIY項目而不同） 1.認識紅磚: 紅磚文化/簡...',
-    img: '/images/image.png',
+    img: '/County-Info/images/image.png',
   },
 ];
 
