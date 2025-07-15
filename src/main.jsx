@@ -19,7 +19,7 @@ import Login from './pages/Login';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/County-Info/">
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
