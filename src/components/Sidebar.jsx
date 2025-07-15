@@ -32,7 +32,7 @@ function Sidebar() {
           <span className="material-icons mr-2">info</span>職探課程列表
         </Link>
         <Link
-          href="/technical-education"
+          to="/technical-education"
           className="flex items-center text-white hover:text-secondary transition"
         >
           <span className="material-icons mr-2">school</span>國中技藝教育
